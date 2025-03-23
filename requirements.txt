@@ -1,42 +1,9 @@
-aiofiles==23.2.1
-aiogram==3.10.0
-aiohttp==3.9.5
-aiosignal==1.3.1
-annotated-types==0.7.0
-anyio==4.8.0
-attrs==23.2.0
-beautifulsoup4==4.12.3
-certifi==2024.6.2
-chardet==3.0.4
-charset-normalizer==3.3.2
-distlib==0.3.8
-filelock==3.15.4
-frozenlist==1.4.1
-googletrans==3.0.0
-h11==0.14.0
-h2==3.2.0
-hpack==3.0.0
-hstspreload==2024.7.1
-httpcore==0.13.3  # Adjusted to match googletrans's requirement
-httpx==0.13.3    # Adjusted to match googletrans's requirement
-hyperframe==5.2.0
-idna==2.10
-magic-filter==1.0.12
-multidict==6.0.5
-nest-asyncio==1.6.0
-pipenv==2024.0.1
-platformdirs==4.2.2
-pydantic==2.7.2
-pydantic_core==2.18.3
-python-telegram-bot==21.11.1
-requests==2.32.3
-rfc3986==1.5.0
-setuptools==71.1.0
-sniffio==1.3.1
-soupsieve==2.5
-telegram==0.0.1
-typing_extensions==4.12.1
-urllib3==2.2.2
-virtualenv==20.26.3
-wikipedia==1.4.0
-yarl==1.9.4
+aiogram==3.10.0          # For bot functionality
+aiohttp==3.9.5           # For async HTTP requests
+googletrans==3.0.0       # For translation
+httpx==0.13.3            # Explicitly set to match googletrans's requirement
+httpcore==0.13.3         # Explicitly set to match httpx's requirement
+requests==2.32.3         # For HTTP requests (if needed)
+beautifulsoup4==4.12.3   # For web scraping (if needed)
+wikipedia-api==0.6.0     # For Wikipedia integration (if needed)
+certifi==2024.6.2        # For SSL certificates
