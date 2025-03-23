@@ -1,9 +1,2 @@
-aiogram==3.10.0          # For bot functionality
-aiohttp==3.9.5           # For async HTTP requests
-googletrans==3.0.0       # For translation
-httpx==0.13.3            # Explicitly set to match googletrans's requirement
-httpcore==0.13.3         # Explicitly set to match httpx's requirement
-requests==2.32.3         # For HTTP requests (if needed)
-beautifulsoup4==4.12.3   # For web scraping (if needed)
-wikipedia-api==0.6.0     # For Wikipedia integration (if needed)
-certifi==2024.6.2        # For SSL certificates
+aiogram==3.10.0
+wikipedia==1.4.0
